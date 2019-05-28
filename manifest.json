@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "dbtoc",
+  "name": "dbhide",
   "version": "1.0",
-  "description": "Make a table of contents",
+  "description": "Hide Code",
   "icons": {
     "48": "logo.png"
   },
   "browser_action": {
-    "default_title": "dbtoc",
+    "default_title": "dbhide",
     "default_icon": "logo.png",
     "default_popup": "popup.html"
   },
