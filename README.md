@@ -1,5 +1,5 @@
 # dbtoc
-A Chrome extension to hide cells and code on Databricks notebooks
+A Chrome extension to hide cells and code on a Databricks notebook
 
 ## Installation
 1. Clone this repository (or Download ZIP)
