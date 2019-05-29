@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "dbhide",
+  "name": "DBHide",
   "version": "1.0",
   "description": "Hide cells and code on a Databricks notebook",
   "icons": {
