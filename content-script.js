@@ -22,11 +22,11 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
   cells.forEach(cell => {
     if (hasOutput(cell)) {
-      const code = cell.querySelector('div.command-input');
+      const code = cell.querySelector('div.mainCommand div.command-input');
       toggleDisplay(code);
     } else {
       toggleDisplay(cell);
     }
-    sendResponse();
   });
+  sendResponse();
 });
