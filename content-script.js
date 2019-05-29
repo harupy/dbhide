@@ -19,13 +19,15 @@ const toggleDisplay = element => {
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   const cells = document.querySelectorAll('div.command-with-number');
+  const dividers = document.querySelectorAll('div.command.divider');
 
-  cells.forEach(cell => {
+  cells.forEach((cell, idx) => {
     if (hasOutput(cell)) {
       const code = cell.querySelector('div.mainCommand div.command-input');
       toggleDisplay(code);
     } else {
       toggleDisplay(cell);
+      toggleDisplay(dividers[idx]);
     }
   });
   sendResponse();
