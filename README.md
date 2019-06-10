@@ -2,6 +2,8 @@
 
 A Chrome extension to hide cells and code on a Databricks notebook
 
+![demo.gif](https://user-images.githubusercontent.com/17039389/59234124-57ba8c00-8c26-11e9-8eca-3dcd210681fb.gif)
+
 ## Installation
 
 [DBHide - Chrome Web Store](https://chrome.google.com/webstore/detail/dbhide/npkdkpcefihbicjhbhjpldehnenlkmpb)
