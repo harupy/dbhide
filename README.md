@@ -15,6 +15,10 @@ A Chrome extension to hide cells and code on a Databricks notebook
 1. Click `Load unpacked`
 1. Select the extension folder
 
+## Acknowledgements
+
+A huge thanks to Databricks for making data science and machine learning easier to access for everyone.
+
 ## License
 
 MIT
